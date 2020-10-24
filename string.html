@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script>
+
+
+        var exams = 'group4,group2,group1 ,group5';
+        var author = 'shakesphere,ronsld,kambar,nakkerar';
+
+        console.log(exams.slice(2, 11), 'slice');
+
+        console.log(exams.slice(0, -5), 'slice');
+
+        console.log(exams.split(','));
+
+
+        console.log(exams.startsWith('2'), 'startsWith');
+
+        console.log(exams.substr(15, 7), 'substr');
+
+        console.log(exams.substring(0, 11), 'substring');
+
+        console.log(author.toLowerCase(), 'lowercase');
+
+        console.log(author.toUpperCase(), 'uppercase');
+
+
+        const names = ['deepa', 'pavithra'];
+
+        console.log(names.toString(), 'tostring');
+
+        const letters = ' prathyusha';
+
+        console.log(letters.trim(), 'trim');
+
+        console.log(letters.trimStart(), 'trimstart');
+
+        console.log(letters.trimEnd(), 'trimend');
+
+        console.log(letters.trimLeft(), 'trimleft');
+
+        console.log(letters.trimRight(), 'trimright');
+
+
+        console.log(author.valueOf(), 'valueof');
+
+        //padend & padstart
+
+        const d = deepa;
+
+        console.log(a.padEnd(5, '*'));
+
+        console.log(a.padStart(5, '#'));
+
+
+        //charAt
+
+        console.log(author.charAt(1), 'charAt');
+
+        console.log(author.charAt(50), 'charAt');
+
+        //charCodeAt
+
+        console.log(exams.charCodeAt(12), 'charCodeAt');
+
+        console.log(exams.charAt(50), 'charCodeAt');
+
+        //constructor
+
+        console.log(exams.constructor, 'constructor');
+
+        //concat
+
+        console.log(sports.concat(' ' + '&' + ' ' + sports1), 'concat');
+
+        console.log(`${sports} & ${sports1}`, 'concat');
+
+        //endswith 
+
+        console.log(sports.endsWith('l'), 'endsWith');
+
+        //fromcharcode
+
+        console.log(String.fromCharCode(25), 'fromcharcode');
+
+        console.log(String.fromCharCode(25000), 'fromcharcode');
+
+        //includes
+
+        console.log(exams.includes('group 1'), 'includes');
+
+        console.log(exams.includes('group1'), 'includes');
+
+
+
+        console.log((author.indexOf('i')), 'indexof');
+
+        console.log((author.indexOf('i', 5)));
+        console.log((author.indexOf('i', 20)));
+
+        console.log((exams.lastIndexOf('i')), 'lastindexof');
+
+        console.log((exams.lastIndexOf('i', 5)));
+
+        console.log((exams.lastIndexOf('i', 3)));
+
+        //length
+
+        console.log(author.length, 'length');
+
+        //match
+
+        console.log(author.match(/sha/g), 'match');
+
+        console.log(author.match(/sha/i));
+
+        console.log(exams.match(/4/g), 'match');
+
+        console.log(exams.match(/4/i));
+
+        //repeat
+
+        console.log(exams.repeat(3), 'repeat');
+
+        console.log(exams.repeat());
+
+        //search
+
+        console.log(author.search(/sha/ig), 'search');
+
+        console.log(author.search(/sha/i), 'search');
+
+    </script>
+
+
+
+</body>
+
+</html>
